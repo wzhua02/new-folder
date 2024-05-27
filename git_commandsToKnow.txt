@@ -1,0 +1,17 @@
+1. Always do git status
+  - find out what branch you are currently on
+2. Branching:
+  2.1 Create a new branch with "git checkout -b <Branch Name>"
+  2.2 Add all changes to branch with "git add ."
+  2.3 Commit changes to that branch with "git commit -m "<comments>" "
+  2.4 Check git status, ensure tree is clean, then push your new branch to remote origin with
+    "git push origin <Your branch name>"
+3. Pulling: Always pull from main branch from remote repo
+  3.1 Pull via "git pull origin main" (git pull origin <branch name>)
+
+4. Branch Navigation:
+  4.1 View all branches with "git branch -v"
+  4.2 Change to branch via "git checkout <branch_name>"
+  4.3 Delete branch with "git branch -d <branch name>"
+  4.4 Rename branch with "git branch -m <branch name>"
+  
