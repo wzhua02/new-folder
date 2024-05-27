@@ -14,4 +14,9 @@
   4.2 Change to branch via "git checkout <branch_name>"
   4.3 Delete branch with "git branch -d <branch name>"
   4.4 Rename branch with "git branch -m <branch name>"
-  
+
+5. Remote repository:
+  5.1 To add new remote repo, use "git remote add <Name your remote> <URI for the repo>"
+  5.2 To modify the URI of an existing remote, use "git remote set-url <name of remote> <new.url/here>"
+    - Alternatively, modify it directly in ".git/config"
+
