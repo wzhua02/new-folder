@@ -1,0 +1,4 @@
+goodbye
+
+newtext
+cat
