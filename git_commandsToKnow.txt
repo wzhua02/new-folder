@@ -19,5 +19,5 @@
   5.1 To add new remote repo, use "git remote add <Name your remote> <URI for the repo>"
   5.2 To modify the URI of an existing remote, use "git remote set-url <name of remote> <new.url/here>"
     - Alternatively, modify it directly in ".git/config"
-   5.3 to clone from remote repo to exisiting directory, use "git clone git@github.com:wzhua02/new-folder.git git_commands/"
+  5.3 to clone from remote repo to exisiting directory, use "git clone git@github.com:wzhua02/new-folder.git git_commands/"
 
