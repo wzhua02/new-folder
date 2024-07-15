@@ -14,7 +14,7 @@
 4. Branch Navigation:
   4.1 View all branches with "git branch -v"
   4.2 Change to branch via "git checkout <branch_name>"
-  4.3 Delete branch with "git branch -d <branch name>"
+  4.3 Delete branch with "git branch -d <branch name>" (use -D to force delete)
   4.4 Rename branch with "git branch -m <branch name>"
 
 5. Remote repository:
