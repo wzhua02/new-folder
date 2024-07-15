@@ -24,4 +24,7 @@
   5.3 to clone from remote repo to exisiting directory, use "git clone git@github.com:wzhua02/new-folder.git git_commands/"
 
 6. Version Control:
-  6.1 To revert to a pervious commit, check "git log" for the uid for the target commit, then copy the first few characters of the uid, then do "git checkout <first few char of commit>"
+  6.1 Reverting to a previous commit:
+  - To revert to a pervious commit, check "git log" for the hash for the target commit, copy the first few characters of the commit hash.
+  - Do "git checkout <first few char of commit hash>" to view the target commit, check the code, ensure it is the commit you want.
+  - Create a new branch for the target commit by doing "git checkout <name of new branch> <first few char of commit hash>".
