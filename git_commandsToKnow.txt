@@ -1,11 +1,13 @@
 1. Always do git status
   - find out what branch you are currently on
+
 2. Branching:
   2.1 Create a new branch with "git checkout -b <Branch Name>"
   2.2 Add all changes to branch with "git add ."
   2.3 Commit changes to that branch with "git commit -m "<comments>" "
   2.4 Check git status, ensure tree is clean, then push your new branch to remote origin with
     "git push origin <Your branch name>"
+
 3. Pulling: Always pull from main branch from remote repo
   3.1 Pull via "git pull origin main" (git pull origin <branch name>)
 
@@ -21,3 +23,5 @@
     - Alternatively, modify it directly in ".git/config"
   5.3 to clone from remote repo to exisiting directory, use "git clone git@github.com:wzhua02/new-folder.git git_commands/"
 
+6. Version Control:
+  6.1 To revert to a pervious commit, check "git log" for the uid for the target commit, then copy the first few characters of the uid, then do "git checkout <first few char of commit>"
